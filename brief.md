@@ -27,3 +27,9 @@ Resource: CISA: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - h
 A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organizations identify dependencies, investigate vulnerabilities, and understand software supply-chain risks. Minimum data fields include the component name and version, software producer, component identifiers, dependency relationships, and SBOM author. Updated guidance also includes component hashes, licenses, the tool used to generate the SBOM, a timestamp, and generation context. These details improve traceability and automated analysis.
 
 Resource: CISA: Updated Minimum Elements for a Software Bill of Materials - https://content.govdelivery.com/accounts/USDHSCISA/bulletins/422a7eb
+## Misconception in My Track
+A common misconception is that applying a software update alone always proves that a system affected by Log4Shell is secure. In reality, organizations must identify all affected systems, apply appropriate fixes, and investigate signs of possible exploitation. Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in Apache Log4j 2. Patching is essential, but security teams should also assess exposure and investigate potential compromise. The supporting guidance appears in CISA’s advisory, “Mitigating Log4Shell and Other Log4j-Related Vulnerabilities.”
+
+Resource evidence: CISA: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+## Open Question
+How can security teams efficiently detect and investigate signs of exploitation after patching a critical vulnerability across a large and complex organization?
