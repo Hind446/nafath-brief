@@ -1,2 +1,5 @@
 Version: NAFATH-V4
 Your track: Cybersecurity
+
+## Overview
+Securing the software supply chain means protecting the software, tools, dependencies, and processes used to build and deliver applications. This mission explores six connected areas: secure software configuration, adversarial machine learning, mobile application security, BGP route hijacking and RPKI, the Log4Shell vulnerability, and Software Bills of Materials (SBOMs). These topics show how security risks can appear at different stages, from development and third-party libraries to network routing and data transparency. Understanding the risks helps developers make safer design choices, identify weaknesses, and use trusted security practices. The research will use reliable sources, prioritizing official documentation and primary references, to explain key concepts, practical protections, and remaining limitations. For the Software track, the focus is on where application configuration and secrets should be stored and why they should not be hard-coded into source code.
