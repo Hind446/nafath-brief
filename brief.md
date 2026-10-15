@@ -15,3 +15,15 @@ Resource: NIST AI 100-2 E2025: Adversarial Machine Learning - https://csrc.nist.
 The OWASP Mobile Application Security Verification Standard (MASVS) defines security controls for assessing mobile applications, including Android and iOS apps. Its control groups cover secure storage, cryptography, authentication, network communication, platform interaction, code quality, resilience, and privacy. Developers can use MASVS as a security baseline during design and development, while testers can check implementations against its controls. The OWASP Mobile Application Security Testing Guide (MASTG) provides practical testing guidance to help verify those controls.
 
 Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
+## Networking
+A BGP route hijack occurs when an autonomous system announces an IP prefix it is not authorized to originate, potentially redirecting traffic through an unintended network or causing a service outage. Resource Public Key Infrastructure (RPKI) helps by allowing networks to validate whether an autonomous system is authorized to originate a prefix, using Route Origin Authorizations (ROAs). However, origin validation does not verify the complete AS path, so it cannot prevent every routing attack or route leak.
+
+Resource: RPKI Documentation: Securing BGP - https://rpki.readthedocs.io/en/latest/rpki/securing-bgp.html
+## Cybersecurity
+Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in certain versions of Apache Log4j 2, a widely used Java logging library. It can allow an attacker to trigger malicious behavior by sending crafted input to an affected application. The vulnerability received a CVSS score of 10.0, the highest severity rating. Organizations should identify affected systems, upgrade to a fixed supported Log4j version, and investigate potentially compromised systems.
+
+Resource: CISA: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+## Data
+A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organizations identify dependencies, investigate vulnerabilities, and understand software supply-chain risks. Minimum data fields include the component name and version, software producer, component identifiers, dependency relationships, and SBOM author. Updated guidance also includes component hashes, licenses, the tool used to generate the SBOM, a timestamp, and generation context. These details improve traceability and automated analysis.
+
+Resource: CISA: Updated Minimum Elements for a Software Bill of Materials - https://content.govdelivery.com/accounts/USDHSCISA/bulletins/422a7eb
